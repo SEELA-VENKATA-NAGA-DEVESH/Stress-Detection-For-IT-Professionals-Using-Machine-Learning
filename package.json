@@ -1,0 +1,26 @@
+{
+  "name": "major-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "googleapis": "^136.0.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
+    "scikitjs": "^1.24.0",
+    "sklearn": "^0.4.0"
+  }
+}
